@@ -4,11 +4,11 @@
     "description": "",
     "main": "main_webServer.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "mocha ./test/common/util/math",
         "start_with_nodemon": "nodemon main_webServer.js"
     },
     "keywords": [],
-    "author": "",
+    "author": "Kathleen Falcon",
     "license": "ISC",
     "dependencies": {
         "ejs": "^2.5.7",

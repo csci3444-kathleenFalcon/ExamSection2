@@ -3,7 +3,7 @@
 // const assert = require('assert');
 // NOTE using chai for assertions instead of assert that comes with nodeJS 
 const assert = require('chai').assert;
-const myCube = require('./src/common/util/math/mySquare');
+const mySquare = require('./src/common/util/math/mySquare');
 
 const num1 = 5;
 const num1String = "5";
