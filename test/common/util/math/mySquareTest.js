@@ -3,11 +3,11 @@
 // const assert = require('assert');
 // NOTE using chai for assertions instead of assert that comes with nodeJS 
 const assert = require('chai').assert;
-const mySquare = require('./src/common/util/math/mySquare');
+const mySquare = require('./../../../../src/common/util/math/mySquare');
 
 const num1 = 5;
 const num1String = "5";
-const num1NaN = "$";
+const num1NaN = "Hello";
 const num1Square = 25;
 
 describe('mySquare', function() {
@@ -17,7 +17,7 @@ describe('mySquare', function() {
             assert.equal(result, num1Square);
         });
 
-        it('toSquare(' + num1String + ') should return the value of "' + num1Square + '"', function() {
+        it('toSquare("' + num1String + '") should return the value of "' + num1Square + '"', function() {
             let result = mySquare.toSquare(num1String);
             assert.equal(result, num1Square);
         });
