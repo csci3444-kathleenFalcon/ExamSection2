@@ -5,7 +5,7 @@
     "main": "main_webServer.js",
     "scripts": {
         "testMocha": "mocha --recursive",
-        "start_with_nodemon": "nodemon ./src/views/main_webServer.js",
+        "start_with_nodemon": "nodemon ./src/main_webServer.js",
         "testAndCoverage_via_nyc": "nyc mocha --recursive",
         "testAndCoverage_via_istanbul": "istanbul cover ./node_modules/mocha/bin/_mocha -- --recursive",
         "testAndCoverage": "npm run testAndCoverage_via_istanbul && npm run testAndCoverage_via_nyc",
