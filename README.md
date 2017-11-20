@@ -4,11 +4,11 @@
 3) go to http://localhost:8014/ in web browser
 
 ### Website Screenshots
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Running - http://prntscr.com/hcp78h <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home page - http://prntscr.com/hcp7bs <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Square page - http://prntscr.com/hcp7fz <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cube page - http://prntscr.com/hcp7iz <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About page - http://prntscr.com/hcp7yn
+1) Running - http://prntscr.com/hcp78h
+2) Home page - http://prntscr.com/hcp7bs
+3) Square page - http://prntscr.com/hcp7fz
+4) Cube page - http://prntscr.com/hcp7iz
+5) About page - http://prntscr.com/hcp7yn
 
 # Unit Tests
 1) cd to ExamSection2 folder
@@ -16,7 +16,7 @@
 3) Full unit & coverage tests: type "npm run testAndCoverageAndReport"
 
 ### Unit Test Screenshots
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mocha - http://prntscr.com/hcpaai <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coverage Test - http://prntscr.com/hcpijd, http://prntscr.com/hcpipb, http://prntscr.com/hcpiss <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coverage browser report - http://prntscr.com/hcpia6
+1) Mocha - http://prntscr.com/hcpaai
+2) Coverage Test - http://prntscr.com/hcpijd, http://prntscr.com/hcpipb, http://prntscr.com/hcpiss
+3) Coverage browser report - http://prntscr.com/hcpia6
 
