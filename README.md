@@ -1,4 +1,5 @@
 # Web Server
+### Instructions
 1) cd to ExamSection2 folder
 2) type "npm run start_with_nodemon"
 3) go to http://localhost:8014/ in web browser
@@ -11,6 +12,7 @@
 5) About page - http://prntscr.com/hcp7yn
 
 # Unit Tests
+### Instructions
 1) cd to ExamSection2 folder
 2) Mocha: type "npm run testMocha"
 3) Full unit & coverage tests: type "npm run testAndCoverageAndReport"
