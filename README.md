@@ -1,7 +1,8 @@
-## Run Server
+## To Run Server
 1) cd to ExamSection2 folder
-2) npm run start_with_nodemon
-3) http://localhost:8014/
+2) type npm run start_with_nodemon
+3) go to http://localhost:8014/ in web browser
 
-## Run Unit Tests
-1) npm test
+## To Run Unit Tests
+1) cd to ExamSection2 folder
+2) type npm test
