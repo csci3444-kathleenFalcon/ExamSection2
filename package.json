@@ -4,10 +4,14 @@
     "description": "",
     "main": "main_webServer.js",
     "scripts": {
-        "test": "mocha ./test/common/util/math",
-        "start_with_nodemon": "nodemon main_webServer.js"
+        "testMocha": "mocha ./test/common/util/math",
+        "start_with_nodemon": "nodemon main_webServer.js",
+        "testAndCoverage_via_nyc": "nyc mocha --recursive",
+        "testAndCoverage_via_istanbul": "istanbul cover ./node_modules/mocha/bin/_mocha -- --recursive",
+        "testAndCoverage": "npm run testAndCoverage_via_istanbul && npm run testAndCoverage_via_nyc",
+        "testAndCoverageAndReport": "npm run testAndCoverage && opn coverage/lcov-report/index.html"
     },
-    "keywords": [],
+    "keywords": ["node", "chai", "istanbul", "mocha", "nyc", "opn-cli", "unit test"],
     "author": "Kathleen Falcon",
     "license": "ISC",
     "dependencies": {
