@@ -7,8 +7,8 @@
  * node hello_express_usingTemplateengine_ejs
  */
 var express = require('express');
-const SquareJS = require('./src/common/util/math/mySquare');
-const CubeJS = require('./src/common/util/math/myCube');
+const mySquare = require('./../common/util/math/mySquare');
+const myCube = require('./../common/util/math/myCube');
 //var apiV2HelpRouter = require('./routes/v2/help');
 
 var app = express();
@@ -37,7 +37,7 @@ app.get('/square', function(req, res) {
     var data2template = {
         head: { title: 'Square' },
         inputNumber: 2,
-        SquareOfNumber: SquareJS.toSquare(2),
+        SquareOfNumber: mySquare.toSquare(2),
     };
     res.render('./pages/square.ejs', data2template);
 });
@@ -47,7 +47,7 @@ app.get('/cube', function(req, res) {
     var data2template = {
         head: { title: 'Cube' },
         inputNumber: 3,
-        CubeOfNumber: CubeJS.toCube(3),
+        CubeOfNumber: myCube.toCube(3),
     };
     res.render('./pages/cube.ejs', data2template);
 });
