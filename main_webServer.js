@@ -7,8 +7,8 @@
  * node hello_express_usingTemplateengine_ejs
  */
 var express = require('express');
-var SquareJS = require('./src/common/util/math/mySquare');
-var CubeJS = require('./src/common/util/math/myCube');
+const SquareJS = require('./src/common/util/math/mySquare');
+const CubeJS = require('./src/common/util/math/myCube');
 //var apiV2HelpRouter = require('./routes/v2/help');
 
 var app = express();
