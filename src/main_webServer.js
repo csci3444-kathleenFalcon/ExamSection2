@@ -7,8 +7,7 @@
  * node hello_express_usingTemplateengine_ejs
  */
 var express = require('express');
-const mySquare = require('./../common/util/math/mySquare');
-const myCube = require('./../common/util/math/myCube');
+const myPowers = require('./common/util/math/myPowers');
 //var apiV2HelpRouter = require('./routes/v2/help');
 
 var app = express();
@@ -25,7 +24,7 @@ app.engine('html', require('ejs').renderFile);
 // set root route
 app.get('/', function(req, res) {
     var data2template = {
-        head: { title: 'CSCI3444' },
+        head: { title: 'Hello Express' },
         name: 'Kathleen',
         lastname: 'Falcon'
     };
@@ -35,9 +34,11 @@ app.get('/', function(req, res) {
 // set square route
 app.get('/square', function(req, res) {
     var data2template = {
-        head: { title: 'Square' },
+        head: { title: 'Square page' },
         inputNumber: 2,
-        SquareOfNumber: mySquare.toSquare(2),
+        resultNumber: function() {
+            return myPowers.toSquare(this.inputNumber);
+        }
     };
     res.render('./pages/square.ejs', data2template);
 });
@@ -45,9 +46,11 @@ app.get('/square', function(req, res) {
 // set cube route
 app.get('/cube', function(req, res) {
     var data2template = {
-        head: { title: 'Cube' },
+        head: { title: 'Cube page' },
         inputNumber: 3,
-        CubeOfNumber: myCube.toCube(3),
+        resultNumber: function() {
+            return myPowers.toCube(this.inputNumber);
+        }
     };
     res.render('./pages/cube.ejs', data2template);
 });
@@ -83,7 +86,7 @@ app.get('/*', function(req, res) {
 });
 
 // start express server
-var server = app.listen(8014, function() {
+var server = app.listen(8015, function() {
     console.log(
         'exam project started and listening at http://%s:%s',
         server.address().address,
