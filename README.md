@@ -10,6 +10,7 @@
 3) Square page - http://prntscr.com/hcy0tt
 4) Cube page - http://prntscr.com/hcy11o
 5) About page - http://prntscr.com/hcp7yn
+6) Error page - http://prntscr.com/hcy97m
 
 # Unit Tests
 ### Instructions
