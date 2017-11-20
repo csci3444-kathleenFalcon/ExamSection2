@@ -5,7 +5,7 @@
 3) go to http://localhost:8015/ in web browser
 
 ### Website Screenshots
-1) Running - <a href="http://prntscr.com/hcy0m9" target="_blank">http://prntscr.com/hcy0m9</a>
+1) Running - <a href="http://prntscr.com/hcy0m9" target="_blank">Screenshot</a>
 2) Home page - http://prntscr.com/hcy0d9
 3) Square page - http://prntscr.com/hcy0tt
 4) Cube page - http://prntscr.com/hcy11o
