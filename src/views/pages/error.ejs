@@ -2,15 +2,28 @@
 <html lang="en">
 
 <head>
-    <title><%= head.title %></title>
+    <% include ../partials/head.ejs %>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-    <pre>
-    Error page - unSupported url
-    </pre>
+<body class="container">
+    <header>
+        <% include ../partials/header.ejs %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <pre>
+                Error page - unSupported url
+            </pre>
+            <h2>Kathleen Falcon</h2>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer.ejs %>
+    </footer>
 </body>
 
 </html>
