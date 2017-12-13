@@ -21,4 +21,4 @@
 ### Unit Test Screenshots
 1) Mocha - http://prntscr.com/hcpaai
 2) Coverage Test - http://prntscr.com/hcpijd, http://prntscr.com/hcpipb, http://prntscr.com/hcpiss
-3) Coverage browser report - http://prntscr.com/hcpia6
+3) Coverage Browser Report - http://prntscr.com/hcpia6
